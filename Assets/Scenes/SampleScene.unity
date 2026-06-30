@@ -1075,12 +1075,16 @@ MonoBehaviour:
   healthBarLowColor: {r: 0.95, g: 0.3, b: 0.3, a: 1}
   shopArrowRoot: {fileID: 0}
   shopArrowImage: {fileID: 0}
+  bossArrowRoot: {fileID: 0}
+  bossArrowImage: {fileID: 0}
   player: {fileID: 0}
   shopArrowScreenOffset: 120
+  bossArrowScreenOffset: 120
   screenEdgeMargin: 48
   bossBarFullColor: {r: 0.95, g: 0.35, b: 0.25, a: 1}
   bossBarLowColor: {r: 0.75, g: 0.1, b: 0.1, a: 1}
   bossNameColor: {r: 1, g: 0.88, b: 0.55, a: 1}
+  bossArrowColor: {r: 0.95, g: 0.35, b: 0.25, a: 0.95}
 --- !u!114 &1055431322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,7 +1187,7 @@ MonoBehaviour:
       scale: 0.5
       sortingOrder: 25
       spawnViewport: {x: 1.15, y: 1.2}
-      targetViewport: {x: 0.5, y: 0.32}
+      targetViewport: {x: 0.15, y: 0.32}
       rushAcceleration: 5
       maxRushSpeed: 22
       arriveDistance: 0.35

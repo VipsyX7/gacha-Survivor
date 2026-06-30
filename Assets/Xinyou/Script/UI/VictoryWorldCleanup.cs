@@ -11,9 +11,6 @@ public static class VictoryWorldCleanup
 
     static void DisableWorldSystems()
     {
-        var mapGenerator = Object.FindFirstObjectByType<MapChunkGenerator>();
-        mapGenerator?.StopGeneration();
-
         var propSpawner = Object.FindFirstObjectByType<MapPropGridSpawner>();
         propSpawner?.StopGenerationAndClearProps();
 
